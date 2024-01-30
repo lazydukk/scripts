@@ -1,6 +1,4 @@
 import requests
-
-
 def scrape_pages(start, end):
     for i in range(start, end + 1):
         url = f"https://drive.apluseducation.lk/pdf/pdf/PDF/AJ/2025/MS/2025-{i}.pdf"
@@ -14,7 +12,6 @@ def scrape_pages(start, end):
 
         # Sleep for a random interval between 2 and 60 seconds
         # time.sleep(random.randint(2, 5))
-
 
 if __name__ == "__main__":
     scrape_pages(1, 54)
