@@ -1,3 +1,3 @@
-# scripts
-# scripts
-# scripts
+# lazydukk/scripts
+
+[scraper](pdf_scraper/)
